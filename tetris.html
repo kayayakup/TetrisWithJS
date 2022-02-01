@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" onmouseover="playy()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tetris.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="game">
+        <div id="play-board"></div>
+        <div id="score-board">
+            <p>Press enter to start!</p>
+        </div>
+    </div>
+</body>
+<script src="tetris.js"></script>
+<script>
+    function playy(){
+        var audio = new Audio('ErikSatie-GnossienneNo1.mp3');
+        audio.play();   
+    }
+</script>
+
+</html>
